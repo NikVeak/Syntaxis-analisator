@@ -1,0 +1,8 @@
+var a, b, c, d: logical ;
+begin
+a = 1 ;
+b = 0 ;
+c = 1 ;
+d = a .and. d ;
+a = .not. ( ( 0 .and. c ) .and. c ) .and. ( c .eq. b ) ;
+end
